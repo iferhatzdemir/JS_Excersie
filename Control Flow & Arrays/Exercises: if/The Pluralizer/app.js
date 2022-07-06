@@ -5,4 +5,4 @@ let plurazier = (noun, piece) => {
       : `${piece}  ${noun}`;
   return Plurazier;
 };
-console.log(plurazier("sheep", 2));
+console.log(plurazier("dog", 2));
