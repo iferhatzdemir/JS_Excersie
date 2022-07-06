@@ -18,3 +18,4 @@ let helloworld = (language) => {
 
 console.log(helloworld("tr"));
 console.log(helloworld("es"));
+console.log(helloworld("xy"));
