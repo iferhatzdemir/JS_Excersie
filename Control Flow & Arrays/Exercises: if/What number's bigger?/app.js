@@ -1,13 +1,14 @@
 function greater(number1, number2) {
   if (number1 > number2) {
-    console.log(
-      `The greater number of ${number1} and ${number2} is ${number1}.`
-    );
+    return number1;
   } else {
-    console.log(
-      `The greater number of ${number2} and ${number1} is ${number2}.`
-    );
+    return number2;
   }
 }
 
-greater(12, 32);
+let result = greater(12, 32);
+console.log("result1", result);
+
+result = greater(34, 32);
+
+console.log("result2", result);
