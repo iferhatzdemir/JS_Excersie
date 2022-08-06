@@ -1,6 +1,7 @@
 let choices = ["red", "orange", "pink", "yellow", "brown"];
 for (var i = 0; i < choices.length; i++) {
   console.log(`My #${i + 1}  choice is  ${choices > [i]}`);
+
 }
 
 for (let i = 0; i < choices.length; i++) {
